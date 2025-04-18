@@ -71,7 +71,6 @@ const list = async (req, res, next, nameSpace) => {
                                                   }
                                         }))
                               }
-                              console.log({ data })
                     }
                     res.status(RESPONSE_CODES.OK).json({
                               statusCode: RESPONSE_CODES.OK,
